@@ -34,14 +34,17 @@ select {
 /*END OF CSS RESET*/
 
 body{
-  display: grid;
-  place-items: center;
+/*   display: grid;
+  place-items: center; */
   background-color: black;
   width: 100vw;
   height: 100vh;
 }
 
 #cube1{
+  right: 0;
+  bottom: 0;
+  position: fixed;
   background-color: #fe4a49;
   width: 400px;
   height: 400px;
@@ -72,6 +75,9 @@ body{
 }
 
 #cube6{
+  position: fixed;
+  left: 0;
+  top: 0;
   background-color: #fe9c8f;
   width: 300px;
   height: 300px;
@@ -90,27 +96,33 @@ body{
 }
 
 #cube9{
+
   background-color: #fad9c1;
   width: 240px;
   height: 240px;
 }
 
 #cube10{
+
   background-color: #f9caa7;
   width: 220px;
   height: 220px;
 }
 
-#cube1,
-#cube2,
-#cube3,
-#cube4,
-#cube5,
-#cube6,
-#cube7,
-#cube8,
-#cube9,
-#cube10{
+p{
+  color: #e6e6ea;
+}
+
+/* #cube1, #cube2, #cube3, #cube4, #cube5, #cube6, #cube7, #cube8, #cube9, #cube10{
   display: grid;
   place-items: center;
+} */
+
+/* div{
+  display: grid;
+  place-items: center;
+} */
+
+div{
+  margin: auto;
 }
