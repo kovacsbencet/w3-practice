@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/*END OF CSS RESET*/
+
+body{
+  display: grid;
+  place-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+#cube1{
+  background-color: #fe4a49;
+  width: 400px;
+  height: 400px;
+}
+
+#cube2{
+  background-color: #2ab7ca;
+  width: 380px;
+  height: 380px;
+}
+
+#cube3{
+  background-color: #fed766;
+  width: 360px;
+  height: 360px;
+}
+
+#cube4{
+  background-color: #e6e6ea;
+  width: 340px;
+  height: 340px;
+}
+
+#cube5{
+  background-color: #f4f4f8;
+  width: 320px;
+  height: 320px;
+}
+
+#cube6{
+  background-color: #fe9c8f;
+  width: 300px;
+  height: 300px;
+}
+
+#cube7{
+  background-color: #feb2a8;
+  width: 280px;
+  height: 280px;
+}
+
+#cube8{
+  background-color: #fec8c1;
+  width: 260px;
+  height: 260px;
+}
+
+#cube9{
+  background-color: #fad9c1;
+  width: 240px;
+  height: 240px;
+}
+
+#cube10{
+  background-color: #f9caa7;
+  width: 220px;
+  height: 220px;
+}
+
+#cube1,
+#cube2,
+#cube3,
+#cube4,
+#cube5,
+#cube6,
+#cube7,
+#cube8,
+#cube9,
+#cube10{
+  display: grid;
+  place-items: center;
+}
