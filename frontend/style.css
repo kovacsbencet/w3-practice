@@ -38,10 +38,8 @@ section{
 }
 
 #section1{
-  padding: 20px;
-  background-clip: content-box;
   background-image: url(hacker.jpg);
-  background-size: 200px 200px;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-color: black;
@@ -49,8 +47,4 @@ section{
 
 input[type="email"], [type="password"]{
   border: 2px solid black;
-}
-
-section.background-holder{
-
 }
