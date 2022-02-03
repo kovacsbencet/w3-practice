@@ -33,6 +33,21 @@ select {
 
 /*END OF CSS RESET*/
 
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 99;
+  text-align: center;
+  background-color: #9c43ef;
+}
+
 
 section{
   min-height: 100vh;
