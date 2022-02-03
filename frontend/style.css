@@ -68,21 +68,29 @@ section{
   border-radius: 30px;
   margin: 40px 0;
   transform: translateX(-50%);
-  background-color: #09ced9;
-  color: whitesmoke;
+  background-color: #000000;
+  color: cyan;
+  font-family: 'Poppins','sans-serif';
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid whitesmoke;
 }
 
 #welcome h1{
-  margin-top: 40px;
-  margin-left: 40px;
+/*   margin-top: 40px;
+  margin-left: 40px; */
+  text-align: center;
   color: whitesmoke;
-  font-size: 100px;
+  font-size: 200px;
   font-family: 'Kaushan Script', cursive;
 }
 
 #about {
-  background-color: violet;
+  background-color: cyan;
   min-height: unset;
+  font-family: 'Poppins', sans-serif;
 }
 
 #about article {
@@ -120,12 +128,31 @@ section{
 #services ul li h2,
 #services ul li p{
   text-align: center;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
 
+}
+
+#services button{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: cyan;
+  font-family: 'Poppins','sans-serif';
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid whitesmoke;
 }
 
 
 #contact{
-  background-color: tomato;
+  background-color:grey;
 }
 
 #contact form{
@@ -139,6 +166,7 @@ section{
 #contact label{
   display: block;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact label{
@@ -152,6 +180,7 @@ section{
   margin-bottom: 30px;
   font-size: 18px;
   background-color: whitesmoke;
+  border-radius: 30px;
 }
 
 #contact button{
@@ -159,11 +188,13 @@ section{
   height: 60px;
   border-radius: 30px;
   background-color: #000000;
-  color: orange;
+  color: cyan;
   font-family: 'Poppins','sans-serif';
   font-weight: 800;
   font-size: 20px;
+  text-transform: uppercase;
   letter-spacing: 1px;
+  border: 2px solid whitesmoke;
 }
 
 
